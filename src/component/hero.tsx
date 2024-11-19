@@ -114,27 +114,35 @@ export function Heroheader() {
 
                     {/* Hero Content */}
                     {!isOpen && (
-                        <div className="absolute z-[1] bottom-24 right-[2%] after_584:right-[5%]">
-                            {/* <h1 className="font-playfair leading-custom-52 after_584:text-[29px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-white"
-                        
-                        >
-                            Crafting Moments, Capturing Stories.
-                        </h1> */}
+                        <div className="w-[50vh] after_521:w-fit absolute z-[1] bottom-24 right-[2%] after_584:right-[5%]">
+                            
                             <h1
-                                className="font-playfair after_584:text-[29px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-white"
+                                className=" pl-[30px] sm:pl-[0px] font-playfair text-[32px]  break-words after_521:break-normal after_584:text-[29px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-white"
                                 style={
                                     isSmallScreen
                                         ? {
-                                            fontSize: 'calc(20.8px + (30 - 20.8) * ((100vw - 384px) / (583 - 384)))',
+                                            fontSize: 'calc(28px + (32 - 28) * ((100vw - 384px) / (583 - 384)))',
                                         }
                                         : {}
                                 }
                             >
-                                Crafting Moments, Capturing Stories.
+                                {/* Framing Life's Essence */}
+                                Crafting Moments,
+                                <span className="block after_521:inline ml-[24%] after_521:ml-2 "
+                                  style={
+                                    {textAlign:'end'}
+                                  }
+                                >
+                                    Capturing Stories.
+                                </span>
                             </h1>
 
 
-                            <p className="font-montserrat text-[14px] after_450:text-[16px] after_584:text-[18px] sm:text-[20px] md:text-[24px] text-white after_584:leading-[38px] "
+
+                            <p className="mt-2 font-montserrat text-[14px]  after_450:text-[16px] after_584:text-[18px] sm:text-[20px] md:text-[24px] text-white after_584:leading-[38px] "
+                            style={
+                                {textAlign:'end'}
+                              }
                             >
                                 Where every frame tells your unique story.
                             </p>
