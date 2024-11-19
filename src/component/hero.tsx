@@ -114,10 +114,10 @@ export function Heroheader() {
 
                     {/* Hero Content */}
                     {!isOpen && (
-                        <div className="w-[50vh] after_521:w-fit absolute z-[1] bottom-24 right-[2%] after_584:right-[5%]">
+                        <div data-aos="fade-up-left" data-aos-duration="2000" className="w-[50vh] after_521:w-fit absolute z-[1] bottom-[5rem] right-[2%] after_584:right-[5%]">
                             
                             <h1
-                                className=" pl-[30px] sm:pl-[0px] font-playfair text-[32px]  break-words after_521:break-normal after_584:text-[29px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-white"
+                                className=" pl-[35px] sm:pl-[0px] font-playfair text-[32px]  break-words after_521:break-normal after_584:text-[29px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-white"
                                 style={
                                     isSmallScreen
                                         ? {
@@ -139,7 +139,7 @@ export function Heroheader() {
 
 
 
-                            <p className="mt-2 font-montserrat text-[14px]  after_450:text-[16px] after_584:text-[18px] sm:text-[20px] md:text-[24px] text-white after_584:leading-[38px] "
+                            <p className="mt-2 font-montserrat text-[15.5px]  after_450:text-[16px] after_584:text-[18px] sm:text-[20px] md:text-[24px] text-white after_584:leading-[38px] "
                             style={
                                 {textAlign:'end'}
                               }
