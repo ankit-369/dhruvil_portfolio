@@ -114,7 +114,7 @@ export function Heroheader() {
 
                     {/* Hero Content */}
                     {!isOpen && (
-                        <div data-aos="fade-up-left" data-aos-duration="2000" className="w-[50vh] after_521:w-fit absolute z-[1] bottom-[5rem] right-[2%] after_584:right-[5%]">
+                        <div  className="w-[50vh] after_521:w-fit absolute z-[1] bottom-[5rem] right-[2%] after_584:right-[5%]">
                             
                             <h1
                                 className=" pl-[35px] sm:pl-[0px] font-playfair text-[32px]  break-words after_521:break-normal after_584:text-[29px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-white"

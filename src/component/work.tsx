@@ -20,7 +20,7 @@ export function Work() {
 
                 {/* First grid */}
 
-                <div data-aos="zoom-in" data-aos-duration="2000" className="container mx-auto px-2 py-8">
+                <div  className="container mx-auto px-2 py-8">
                     <div className="grid after_800:grid-cols-12 gap-4 mx-auto h-[205vh] after_800:h-[170vh]">
                         {/* Left Column - Two Horizontal Videos */}
                         <div  className="col-span-8 grid grid-rows-2 gap-4 h-full">

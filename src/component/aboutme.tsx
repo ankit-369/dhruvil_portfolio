@@ -14,14 +14,14 @@ export function Aboutme() {
                             {/* <div className="h-px bg-white flex-1"></div> */}
                             <br></br>
                         </div>
-                        <p data-aos="zoom-in" className=" ">
+                        <p className=" ">
                             Every frame has a story to tell, and I’m passionate about bringing those stories to life. From capturing breathtaking moments to refining every detail in the edit, my goal is to create visuals that leave a lasting impression.
 
                             {/* Behind every frame is a story waiting to be told. Every capture and edit is fueled by passion.  Whether filming stunning scenes or
                             perfecting an edit, my aim is to tell a story that sticks, making every frame unforgettable. */}
                         </p>
 
-                        <p data-aos="zoom-in" className=" ">
+                        <p className=" ">
                             {/* I believe every project is an opportunity to push creative boundaries. From cool, high-energy reels to
                             carefully composed images, I focus on delivering content that's visually dynamic and packed with
                             energy, ensuring every frame tells a compelling story. */}
@@ -32,7 +32,7 @@ export function Aboutme() {
                             impression. */}
                         {/* For me, it’s all about turning ideas into unforgettable visual experiences that truly stand out. */}
                         {/* </p>  */}
-                        <p data-aos="zoom-in" className="text-white text-lg leading-relaxed">
+                        <p className="text-white text-lg leading-relaxed">
                             {/* It's all about transforming ideas into visual experiences that stand out and spark a lasting impression. */}
                             For me, it’s all about turning
                             <span className="font-bold text-yellow-300"> ideas into unforgettable visual experiences </span>
