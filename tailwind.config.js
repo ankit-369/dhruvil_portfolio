@@ -24,6 +24,11 @@ export default {
       screens: {
         'custom-range': { min: '1180px', max: '1470px' }, // Custom range
         'before_1180': { max: '1179px' }, // Custom range
+        'before_640':{max:'640px'},
+        'after_521':{min:'520px'},
+        'after_450':{min:'440px' , max:'583px'},
+        'after_584': { min: '584px',max:'640px' },
+        
       },
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
