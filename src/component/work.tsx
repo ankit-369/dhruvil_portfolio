@@ -20,7 +20,7 @@ export function Work() {
 
                 {/* First grid */}
 
-                <div className="container mx-auto px-2 py-8">
+                <div className="container mx-auto px-2 pt-8 pb-4">
                     <div className="grid after_800:grid-cols-12 gap-4 mx-auto h-[205vh] after_800:h-[170vh]">
                         {/* Left Column - Two Horizontal Videos */}
                         <div className="col-span-8 grid grid-rows-2 gap-4 h-full">
@@ -102,7 +102,7 @@ export function Work() {
                     <button
                         onMouseEnter={() => setIsHoveredC(true)}
                         onMouseLeave={() => setIsHoveredC(false)}
-                        className="group relative px-8 py-2">
+                        className="group relative px-8 pb-2">
                         <span className="font-montserrat text-[20px] font-normal relative z-10 text-white  tracking-wider">
                             See More
                         </span>
